@@ -6,10 +6,12 @@ It also sets up the AWS Crawler.
 
 Usage:
 
+```
 module "aws-tf-datadog" {
   source              = ""
   datadog_external_id = ""
 }
+```
 
 To setup the AWS Crawler for Datadog, you need to: 
 
