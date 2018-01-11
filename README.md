@@ -8,8 +8,9 @@ Usage:
 
 ```
 module "aws-tf-datadog" {
-  source              = ""
-  datadog_external_id = ""
+  source                 = ""
+  datadog_external_id    = ""
+  datadog_aws_account_id = ""
 }
 ```
 
