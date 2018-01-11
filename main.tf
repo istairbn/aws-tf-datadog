@@ -12,8 +12,8 @@ data "template_file" "assume_role_file" {
   template = "${file("${path.module}/policies/assume_role.tpl")}"
 
   vars {
-    datadog_external_id = "${var.datadog_external_id}"
-    datadog_aws_account_id = "${var.datadog_external_id}"
+    datadog_external_id    = "${var.datadog_external_id}"
+    datadog_aws_account_id = "${var.datadog_aws_account_id}"
   }
 }
 
